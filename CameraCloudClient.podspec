@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CameraCloudClient"
-  spec.version      = "0.4.0"
+  spec.version      = "0.5.0"
   spec.summary      = "A Camera CloudClient SDK."
 
   # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
   #
 
 #  spec.license      = "MIT (example)"
-#  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

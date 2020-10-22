@@ -430,10 +430,10 @@ UIKIT_EXTERN NSString * const testDevicePwd = @"";
     cond.struBeginTime.dwMinute = 0;
     cond.struBeginTime.dwSecond = 0;
 
-    //文件结束时间 2020-8-11 23:59:59 可以自行封装model对于结构体的转换或者赋值
+    //文件结束时间 2020-10-22 23:59:59 可以自行封装model对于结构体的转换或者赋值
     cond.struEndTime.dwYear = 2020;
-    cond.struEndTime.dwMonth = 8;
-    cond.struEndTime.dwDay = 11;
+    cond.struEndTime.dwMonth = 10;
+    cond.struEndTime.dwDay = 22;
     cond.struEndTime.dwHour = 23;
     cond.struEndTime.dwMinute = 59;
     cond.struEndTime.dwSecond = 59;
@@ -488,12 +488,12 @@ UIKIT_EXTERN NSString * const testDevicePwd = @"";
     cond.struStartTime.dwSecond = startTime.dwSecond;
     
     //通过开始时间计算获得当天的最大结束时间 传入
-    cond.struStopTime.dwYear = 2020;
-    cond.struStopTime.dwMonth = 8;
-    cond.struStopTime.dwDay = 11;
-    cond.struStopTime.dwHour = 23;
-    cond.struStopTime.dwMinute = 59;
-    cond.struStopTime.dwSecond = 59;
+    cond.struStopTime.dwYear = 1970;
+    cond.struStopTime.dwMonth = 1;
+    cond.struStopTime.dwDay = 1;
+    cond.struStopTime.dwHour = 0;
+    cond.struStopTime.dwMinute = 0;
+    cond.struStopTime.dwSecond = 0;
     
     bool res = [[CloudClientSDK4iOS getInstance] ClientReplay:self.deviceHandle lpReplayCond:&cond resCallBack:^(void *lpData, unsigned int nDataLen) {
         CLOUDSDK_REPLAY_RESULT * result = (CLOUDSDK_REPLAY_RESULT *)lpData;
