@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CameraCloudClient"
-  spec.version      = "0.2.0"
+  spec.version      = "0.3.0"
   spec.summary      = "A Camera CloudClient SDK."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "CameraCloudClient/Classes", "CameraCloudClient/Classes/**/*.{h,m}"
+  spec.source_files  = "CameraCloudClient/Classes", "CameraCloudClient/Classes/**/*.{h,m,mm}"
   spec.exclude_files = "CameraCloudClient/Classes/Exclude"
   spec.vendored_libraries = 'CameraCloudClient/Classes/**/*.a'
   spec.public_header_files = "CameraCloudClient/Classes/**/*.h"

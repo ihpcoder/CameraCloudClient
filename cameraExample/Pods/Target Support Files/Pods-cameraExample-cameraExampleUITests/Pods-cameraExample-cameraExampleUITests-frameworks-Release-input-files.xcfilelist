@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-cameraExample-cameraExampleUITests/Pods-cameraExample-cameraExampleUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CameraCloudClient/CameraCloudClient.framework
+${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework
