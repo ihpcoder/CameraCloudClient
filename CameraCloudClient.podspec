@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CameraCloudClient"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.0"
   spec.summary      = "A Camera CloudClient SDK."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                   DESC
+                   DESC description
 
   spec.homepage     = "https://github.com/ihpcoder/CameraCloudClient"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
