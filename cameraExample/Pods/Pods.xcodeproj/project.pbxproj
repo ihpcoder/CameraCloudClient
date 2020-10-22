@@ -3,94 +3,78 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0077E2C1E1042512F36A3204CFD42BEF /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DBDD41C00E04DBB9C274BD293F14DA /* NSObject+MJClass.m */; };
-		01E3E1FB1F9A0FA56C79608F8139A32F /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0EC9D5133B0B0939C524CD463CB225 /* MJExtensionConst.m */; };
-		026061EE3B5F5263578D62A6F8D5FE74 /* CloudClientSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C076B084D8DD1412191ADED6FB04549B /* CloudClientSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		033484819373AB7E020C0026CAE0F7BF /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD8143D09D486240B9457CEDB2F4921 /* MJFoundation.m */; };
-		04AC3D02D5ACF7D80EA2EC26ED712CAE /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B50C83EA505A310526B959A80CDBD9 /* UserNotifications.framework */; };
-		05452B06007B8F1969A23C3C9D494CBD /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE230A136C33D5DFC04E7CF843F6AA3 /* MJExtension-dummy.m */; };
-		071148B77D245E5F27EC998D763CC600 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAA1F74DC39F43637D8C55557735972 /* Foundation.framework */; };
-		07288680C9E7EDC1E240E0E3C50EE65C /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F2D4B6FA59D541EA2D7414CED63243 /* NSObject+MJProperty.m */; };
-		0739AA1BAFE1926609E7EDFC78AB41C5 /* VideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD95B06060FFEC736F73D8ED6D0FE24 /* VideoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11970B98E7898793C626637572B181AF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAAAD2C612D3D34DB11D641BACDE2C5E /* Security.framework */; };
-		1446C1A8A256576577B63067AA78F07D /* Pods-cameraExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 924361D2D32E0E5A2EDCCDD75BBB31B6 /* Pods-cameraExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		198F390011A3B323462CE7BD88F7DF86 /* VideoLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E229AD3B414DC18A06750BC2EBCC270 /* VideoLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25E03213AA01D83EB415A04635B34F1A /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 722454F711E3EB3686DFDDA5905AD548 /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C5B0003A767ABB5B9AAA900E9E95505 /* ClientSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C13BD135C7391E05D0689E293437B4D1 /* ClientSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34D2A895CB5411B00503425281357D5F /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5134D00BA39E1F659924C0BC949296C /* VideoToolbox.framework */; };
-		375A2D1B0A40EE45216A2422DEDA9723 /* Pods-cameraExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2807192C3CE09FE99CC89B8ACA3931AA /* Pods-cameraExampleTests-dummy.m */; };
-		3BAA6DDBE44238B40D6A72A16EF41814 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C748F53D69C9F41894F8E3EE99D4E6 /* MJProperty.m */; };
-		406D2B37572A03534672CAC2DB6BAD31 /* AntsUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D87489B668882934F0D5090B05BDF328 /* AntsUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41BBD20F99D3D0EFD9D38337503D4C1F /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4AA39722992178C121890FF107BDFDB /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		430069B3F09899E1E6FA0F67824D3885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAA1F74DC39F43637D8C55557735972 /* Foundation.framework */; };
-		47289F47BA3F060CF9D143FCC066E8BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAA1F74DC39F43637D8C55557735972 /* Foundation.framework */; };
-		4DE342943F553813912F90C257280317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAA1F74DC39F43637D8C55557735972 /* Foundation.framework */; };
-		51B52CF3C36FD569F6D55036860EC6F5 /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4DE630A1D5CD59D3DF1DECA3652A8F /* VideoView.m */; };
-		51E7A17D617310CE81444F5D315EAEF0 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EAED9402B0A0ED183081BF7FABAA59F /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B76CE44BE39C7C35B868463D6C36CB0 /* CameraCloudClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E30FD2C57C6D1D79DA40191292D82ECE /* CameraCloudClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		616F48248BE1F77B23B15035DFF25874 /* CameraCloudClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F3181B94E011D97E46BDF4D5609ECD /* CameraCloudClient-dummy.m */; };
-		6EB2DB353C463B2DE9A282F821E3A62A /* Pods-cameraExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BFA87FDFC2DB3BA1F4C9601470D8DF /* Pods-cameraExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EC015330CAC3D60745A20B01928B8DB /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = B925662A8ED0D15431C1D807885D30C8 /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7155607EADA71F37CFE188D866B7E40A /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = F9888BA6FEC1DE1D26D45D995FBAE643 /* MJPropertyKey.m */; };
-		77461FC3602461A01D6A122466787A42 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B438A4946A07CD6FA5C576DF9A19B09 /* NetworkExtension.framework */; };
-		7BE71B62F38458AC771581F60006F9CE /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FAF5EB1DD403C7CDB888674662D978 /* NSObject+MJCoding.m */; };
-		80CD1A0F2E37A0B2C0D7F58FC2C35C73 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6384F39521E0E5982D244B824593F1 /* CoreMedia.framework */; };
-		8A2E1E487FBFC3DF55C12C056BFA36A1 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 9439ED235893B1765356769F00419D69 /* MJPropertyType.m */; };
-		8FC29E832DDAB80383225B6835060BA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAA1F74DC39F43637D8C55557735972 /* Foundation.framework */; };
-		912758556B9AB1DEEABE189955C5B8F2 /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC2F4FEDA5480035CE1BAF83E25D914 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9796F9FAC1941A992E8B17F31D62B2E4 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0D1CDFA422DF34E039272161E024D3 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99BF63084CB0EDEA0A9CBB77E8315E6E /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E382DC0FAFC66BEB5E97EC9FA55C4C /* NSObject+MJKeyValue.m */; };
-		9AF167B26445F7F436F91498A4FE0BAD /* Pods-cameraExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DE0E8A812A41B816CB3A90481A29E1 /* Pods-cameraExample-dummy.m */; };
-		9FB79AF80BE54B2E32BFF574F3211631 /* CloudClientSDKCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 49FDB2A07BE7E37CE6579DF50C60075E /* CloudClientSDKCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A47472F50A3A7869A644789159571A5C /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 647DEB7154D476B029B4483DB8CE289E /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B94AD428EA4EFD7BA79BCF57680D390A /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = F1677E44A587E61DCA0F931B2889708A /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD4BD46392BF058431313883796BBFA1 /* Pods-cameraExample-cameraExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC0CCFCCB7880CB12BBFBD4B3076B4A /* Pods-cameraExample-cameraExampleUITests-dummy.m */; };
-		C0C8961B2EAF90DA7244B427C569FCFD /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E1F10EA913620099996314C434C50D /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAD2539BE3C4AB2F1FD1DF30D7629238 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A92C2B40005CF9A440380490CC1C808 /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB88C7150B1CA5BACFF4171A5B191061 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B7A2A2D52903F12286E6AC5B9A14B /* AVFoundation.framework */; };
-		D2B7FA8231B6B0612E851E5CFC724448 /* CloudSDKCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A016F4CF1745DC6331BF23D63B39C1 /* CloudSDKCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3D4A46C6DBBDF3D57DEAD6551C8326A /* CloudClientSDK4iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA8AD5DC46BEC78AD6539FA35DE0863 /* CloudClientSDK4iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6775033B3F0080B56E29AB395A08867 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD97592D9872742C8B28DA6FC033DB1 /* NSString+MJExtension.m */; };
-		F0EF96DAB145D1B2247C01B3517B54FE /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A82A404B552FB57557D37DC51173CFF /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6AA8E2C14C8B331D8EFEFC8B2886AC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB5FE02EAEE2DE406745009031A8A5B /* UIKit.framework */; };
-		FAB7CF107E7E3EE6FA7949CF18B8BA12 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D2E660F26D90631109BC6C139DCBE03 /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBD4C1DB323182EF15C34F075982F977 /* Pods-cameraExample-cameraExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C54E291D5161E2D7C93A457350CE1A /* Pods-cameraExample-cameraExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E62A7BD7A3829532433091FDE652B95 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE893EB49F8860AB9ADAE7F94A5A2F2 /* MJProperty.m */; };
+		1609407914B4474BD6125FC9C2BCDE67 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B291E497399D3479E1AEA9790BCF7C /* MJPropertyType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		174206A450C45E65A09563FEE1EA3DA7 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3C3EE22DDD434EBCE7A740A767316 /* MJPropertyType.m */; };
+		253C3DC37B49553B049C04986B78CEBD /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1A14A04178E9BF90DEAA9F3BAB2C64 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29765CB05CE9FA4A2CEE05424C0AF136 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 871570B6F8984C6B6B27A6BF8D7E8EA2 /* MJFoundation.m */; };
+		29BD11FAB79791AAA2CD25BD4D5A2BAF /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E06018EC01F8F55DA14CB10618B66DEF /* NSObject+MJKeyValue.m */; };
+		2E7FA3D435508F88A15669B05CBC9741 /* ClientSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C6185968E00E11350AD0E35020C302 /* ClientSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34E253EB078AE14E619398EB86C16A2F /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C14E72FC19461F0D1DC8D1CDBA1250A /* MJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		362544FCF1660239CB47AA8693FB370B /* CloudClientSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F641F7ED54BAC27254E83FF15CC9576 /* CloudClientSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B90704C9954AD4B1D3894941458B9DE /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AD61BC7E4A8377BF9EB4EB6251BD4412 /* NSString+MJExtension.m */; };
+		53904AC7D05BAAAB968AAA084AB04625 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA10B9D1785B2C6ACAEAC092B06804D /* NSObject+MJCoding.m */; };
+		5672C08B2E4A956A54FBBC0BFC17DC82 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 90A683140218EABEFCC78C7F0728995B /* MJProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A30D4975A5622049E0246992CEAC2CD /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A4B0B354C7148DED35F3EE6C1689EF /* VideoView.m */; };
+		5ED02E05F54B4005F8DDD69F1F14C170 /* CloudSDKCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = EF25CCA17D06FAB856469E73514A8CFD /* CloudSDKCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D29803833E4A3A93AD4165AEC2A06E7 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 792D005781B9BADBD9341EA4662BD319 /* MJExtensionConst.m */; };
+		75BCAD159F48A7F49337FCA96437148E /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F126BCAE7B7162889B19D14591374 /* NSObject+MJProperty.m */; };
+		789544A75BCAFA4FE5B94A1CFB26112C /* VideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 511BDF18A2EE632F108C893027ACF761 /* VideoView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78F55DC767AEA052701BFFFAF2E63E9F /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8FA0BFE37804E370D4D784D60FEB72 /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7EE20C32266DB5C818EC2677F58AEC90 /* Pods-cameraExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB223AF8BEACC2B7077277639C2CFDF4 /* Pods-cameraExample-dummy.m */; };
+		822B66E63ED92684C095C8BF6F55F9BE /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = BE43E2C6980C87DFAFCCBB82238DD81B /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99B7688A77DE2E48E52D0F5B26E24CCA /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD65AD8F11502361C1DE62FD54059B9 /* MJPropertyKey.m */; };
+		9A118C01C80CDBD88A3CE9F9ED917B40 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C3CBEECBED7B6687BC1DC11141264 /* MJExtension-dummy.m */; };
+		A188850C0FDCAE1C7E6983AFABEF0439 /* VideoLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F0E396571230188B04C0682B426EBFC9 /* VideoLayer.mm */; };
+		A34EF90FD9DB3AB735F37BBC82B7C941 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 426C244642FFFD93930663E5400D565D /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6359596A32B855FAD947ED012D5492F /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A4BDEB67D5573F2B058C9C9BEE3AA96 /* MJFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BEA2806A316E9E55639261BB27C6B99B /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 91916C37F1CB0EE1F37656B5E373A97B /* NSObject+MJClass.m */; };
+		C457593EB538B48217F4EDE26FDB4D86 /* CameraCloudClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE488F7CAE79C8CD8EA806660C83F703 /* CameraCloudClient-dummy.m */; };
+		C694C517A4DAB8620364531833887D5F /* VideoLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA65AB88B3D9F79E66A164D6D963F03 /* VideoLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6B2289F4DEF640564992066C56691FD /* Pods-cameraExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DF4316B66B89F49CB51478FCA7E6E0 /* Pods-cameraExampleTests-dummy.m */; };
+		D5193B543A6DD25467FF52BF6DA219A6 /* AntsUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E680F9440406CFC60ABAF4730A7B85 /* AntsUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D893D6C7E5B0E596BA3C0AB454321280 /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 34EAA63194CAA2D289E890ED758A2778 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD7095E416D8763B2BB1D6E306C91EAC /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = B6380FA5AF90EF951BA514D2FD624D4E /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE063BC538B8FD4EBADFEAF85D731173 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EECF1C28759D6E257ED995BD90E2EB78 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4BDFF8CF04EB586725489C0DB8D3B6C /* CloudClientSDK4iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 86850CB88A23CC7C113709E3696E6A93 /* CloudClientSDK4iOS.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F508F6669F5F32804106EC970EDFE4C3 /* CloudClientSDKCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = BC06504934B8A509B4534384EFA45788 /* CloudClientSDKCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6BCE5B20F06207E1AC7B55B19B3CDF4 /* Pods-cameraExample-cameraExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DA8AF9BD3521DD64DCD8282E57EE80 /* Pods-cameraExample-cameraExampleUITests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1CD32CE456D02F539F8C4A011B963612 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 02672DB25C32C4BA41E89C664A504131;
-			remoteInfo = CameraCloudClient;
-		};
-		6CCEECF59520E64A800E2567A9CF222F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
-			remoteInfo = MJExtension;
-		};
-		8D3FC788464419E7E863285C7D1ED565 /* PBXContainerItemProxy */ = {
+		1298B1E0135CCB539CEA5622508DFD7C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DA11D3029B7CA7020A7BC5D39A9D9610;
 			remoteInfo = "Pods-cameraExample";
 		};
-		A88A1F5BE2D921A43B444648253876BD /* PBXContainerItemProxy */ = {
+		3B6CA98C409DB2BCC8F730FDA8D8FC1D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
 			remoteInfo = MJExtension;
 		};
-		E64610230D9415F4B5E8947BE7EF775A /* PBXContainerItemProxy */ = {
+		BAA0905DFB7DC52C117F78648DB8D29A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02672DB25C32C4BA41E89C664A504131;
+			remoteInfo = CameraCloudClient;
+		};
+		F53A184D8E3BC0E685F48956889B7C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
+			remoteInfo = MJExtension;
+		};
+		FCF30E185E2C443E53D0387B6FAE3E6C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -100,347 +84,261 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02FE3DD87EBEB708271454228B820FEB /* CameraCloudClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CameraCloudClient.release.xcconfig; sourceTree = "<group>"; };
-		04BFA87FDFC2DB3BA1F4C9601470D8DF /* Pods-cameraExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cameraExampleTests-umbrella.h"; sourceTree = "<group>"; };
-		0C17B7C1ABFDBE95CE2822A762FCE6C6 /* Pods-cameraExample-cameraExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cameraExample-cameraExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0E229AD3B414DC18A06750BC2EBCC270 /* VideoLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VideoLayer.h; sourceTree = "<group>"; };
-		0F65D1312CBF78545A4A36BC80CA82A3 /* Pods-cameraExample-cameraExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraExample-cameraExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1477F500C15F975E35A05F1BCEB455C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		15E382DC0FAFC66BEB5E97EC9FA55C4C /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
-		1B438A4946A07CD6FA5C576DF9A19B09 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/NetworkExtension.framework; sourceTree = DEVELOPER_DIR; };
-		1D2E660F26D90631109BC6C139DCBE03 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
-		1DB5FE02EAEE2DE406745009031A8A5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		2807192C3CE09FE99CC89B8ACA3931AA /* Pods-cameraExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cameraExampleTests-dummy.m"; sourceTree = "<group>"; };
-		2A92C2B40005CF9A440380490CC1C808 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
-		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BD95B06060FFEC736F73D8ED6D0FE24 /* VideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VideoView.h; sourceTree = "<group>"; };
-		2DEB1774F58D828BF2CB4693DC19F756 /* Pods-cameraExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		2FDA00C766A7FBE7EAC6462FB9A8BD50 /* Pods-cameraExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cameraExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		31C54E291D5161E2D7C93A457350CE1A /* Pods-cameraExample-cameraExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cameraExample-cameraExampleUITests-umbrella.h"; sourceTree = "<group>"; };
-		38FAF5EB1DD403C7CDB888674662D978 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
-		3DFBC2E2B33135ED7D369A5ACDF8D1B6 /* CameraCloudClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CameraCloudClient.modulemap; sourceTree = "<group>"; };
-		476E36F7D06A2A94EAEDA055DF2C5547 /* Pods-cameraExample-cameraExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cameraExample-cameraExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
-		49FDB2A07BE7E37CE6579DF50C60075E /* CloudClientSDKCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudClientSDKCommon.h; sourceTree = "<group>"; };
-		4BA8AD5DC46BEC78AD6539FA35DE0863 /* CloudClientSDK4iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudClientSDK4iOS.h; sourceTree = "<group>"; };
-		4E0D1CDFA422DF34E039272161E024D3 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
-		4E381C92021F24BC91834D6C41C3D310 /* Pods-cameraExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cameraExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4FAA1F74DC39F43637D8C55557735972 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		520A3A9FD574A96B394D81B865C1E6BB /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
-		52E1F10EA913620099996314C434C50D /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
-		5A54784825094F51A25E23777977EE65 /* Pods-cameraExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cameraExample-Info.plist"; sourceTree = "<group>"; };
-		5AC2F4FEDA5480035CE1BAF83E25D914 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
-		5E6384F39521E0E5982D244B824593F1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
-		5EF428EDEF37272EBBD092FB8A11723B /* CameraCloudClient.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CameraCloudClient.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		647DEB7154D476B029B4483DB8CE289E /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
-		722454F711E3EB3686DFDDA5905AD548 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
-		74F3181B94E011D97E46BDF4D5609ECD /* CameraCloudClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CameraCloudClient-dummy.m"; sourceTree = "<group>"; };
-		7A82A404B552FB57557D37DC51173CFF /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
-		7F1B78D89F78FB2CB3845B2369545833 /* Pods-cameraExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraExample.debug.xcconfig"; sourceTree = "<group>"; };
-		834661BE29484E8F64E9018A79FDC1B4 /* Pods-cameraExample-cameraExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cameraExample-cameraExampleUITests.modulemap"; sourceTree = "<group>"; };
-		83B50C83EA505A310526B959A80CDBD9 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
-		8646B276BA47FC445C59E7DDC643487A /* CameraCloudClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CameraCloudClient-Info.plist"; sourceTree = "<group>"; };
-		8C0EC9D5133B0B0939C524CD463CB225 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
-		8CFC50399FF1CF1E8052328D8C203D7D /* Pods-cameraExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cameraExampleTests-Info.plist"; sourceTree = "<group>"; };
-		8FE85F6E03FD4E693E41DAE5016D827A /* Pods-cameraExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cameraExample-frameworks.sh"; sourceTree = "<group>"; };
-		9018DE32765CCF38E7D9A0536BC71B42 /* Pods_cameraExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cameraExample.framework; path = "Pods-cameraExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		924361D2D32E0E5A2EDCCDD75BBB31B6 /* Pods-cameraExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cameraExample-umbrella.h"; sourceTree = "<group>"; };
-		935557FEF07763DA4B5F57A3B45B3DB5 /* Pods-cameraExample-cameraExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cameraExample-cameraExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9439ED235893B1765356769F00419D69 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
-		9D766E55190577B2730B5B555C0B6BC4 /* Pods-cameraExample-cameraExampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cameraExample-cameraExampleUITests-Info.plist"; sourceTree = "<group>"; };
+		0DA65AB88B3D9F79E66A164D6D963F03 /* VideoLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VideoLayer.h; sourceTree = "<group>"; };
+		0FA7C6EE5FA8325DAC358C7F666786B3 /* Pods-cameraExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cameraExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10C4EA46A8D33D8CF35D925FA648AA87 /* MJExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.debug.xcconfig; sourceTree = "<group>"; };
+		1EA10B9D1785B2C6ACAEAC092B06804D /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		22A4B0B354C7148DED35F3EE6C1689EF /* VideoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VideoView.m; sourceTree = "<group>"; };
+		23F3C3EE22DDD434EBCE7A740A767316 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		2B276B0A79173A1D6E83C9B4FB9A4A57 /* libMJExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJExtension.a; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BC01D8F5263E38E1E7B0A5430943EA7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2D001CCFA7BCB7BB94068750526E34FB /* Pods-cameraExample-cameraExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cameraExample-cameraExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		342C3CBEECBED7B6687BC1DC11141264 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
+		34EAA63194CAA2D289E890ED758A2778 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		358E52969F35B457AF7106ADB2B7FED7 /* CameraCloudClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraCloudClient-prefix.pch"; sourceTree = "<group>"; };
+		39C6185968E00E11350AD0E35020C302 /* ClientSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ClientSession.h; sourceTree = "<group>"; };
+		3CE893EB49F8860AB9ADAE7F94A5A2F2 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		426C244642FFFD93930663E5400D565D /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		4A4BDEB67D5573F2B058C9C9BEE3AA96 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
+		4E4A3825A9896541344305902B24F04A /* Pods-cameraExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraExample.debug.xcconfig"; sourceTree = "<group>"; };
+		511BDF18A2EE632F108C893027ACF761 /* VideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VideoView.h; sourceTree = "<group>"; };
+		53B291E497399D3479E1AEA9790BCF7C /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
+		567A2D4FD1DF0AC045D88831BD2E6A1C /* libCloudClientSDK4iOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCloudClientSDK4iOS.a; path = CameraCloudClient/Classes/Lib/libCloudClientSDK4iOS.a; sourceTree = "<group>"; };
+		57C107B4B5D452E9426169291BD15A03 /* Pods-cameraExample-cameraExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraExample-cameraExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C14E72FC19461F0D1DC8D1CDBA1250A /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
+		669F126BCAE7B7162889B19D14591374 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		6C8FA0BFE37804E370D4D784D60FEB72 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		6D2225D3D19E660DE527D88B01178C5B /* Pods-cameraExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cameraExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		792D005781B9BADBD9341EA4662BD319 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
+		7E3D53ECB72A63010AE0BBC0D25B5A83 /* CameraCloudClient.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CameraCloudClient.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F641F7ED54BAC27254E83FF15CC9576 /* CloudClientSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudClientSDK.h; sourceTree = "<group>"; };
+		86850CB88A23CC7C113709E3696E6A93 /* CloudClientSDK4iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudClientSDK4iOS.h; sourceTree = "<group>"; };
+		871570B6F8984C6B6B27A6BF8D7E8EA2 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		9018DE32765CCF38E7D9A0536BC71B42 /* libPods-cameraExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-cameraExample.a"; path = "libPods-cameraExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A683140218EABEFCC78C7F0728995B /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		91916C37F1CB0EE1F37656B5E373A97B /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		999DC96B21CECB3D0E97E94670F0689B /* Pods-cameraExample-cameraExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cameraExample-cameraExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9CD53A4623309AE9C9666D13071910CF /* CameraCloudClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CameraCloudClient.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EAED9402B0A0ED183081BF7FABAA59F /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
-		A1235F383B4C41E885A7A2353AF65B71 /* Pods-cameraExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cameraExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		A3DE0E8A812A41B816CB3A90481A29E1 /* Pods-cameraExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cameraExample-dummy.m"; sourceTree = "<group>"; };
-		A4577B9B05E98AA302201F30E51132A6 /* Pods_cameraExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cameraExampleTests.framework; path = "Pods-cameraExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9DBDD41C00E04DBB9C274BD293F14DA /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
-		AC11B647F17EA157AE551E330A864668 /* Pods-cameraExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cameraExample.modulemap"; sourceTree = "<group>"; };
-		AE5131AFD2B2E97A3C71CE181EA68FFF /* CameraCloudClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CameraCloudClient.debug.xcconfig; sourceTree = "<group>"; };
-		B3E2896E58D70126F579F90790BB4670 /* MJExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJExtension-Info.plist"; sourceTree = "<group>"; };
-		B3F98C10FAB28F2C21631B4A78FC8D5E /* Pods-cameraExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraExample.release.xcconfig"; sourceTree = "<group>"; };
-		B7C748F53D69C9F41894F8E3EE99D4E6 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
-		B89AF49835BE383C98AB0C9B3C54068F /* Pods-cameraExample-cameraExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraExample-cameraExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B925662A8ED0D15431C1D807885D30C8 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
-		BBC0CCFCCB7880CB12BBFBD4B3076B4A /* Pods-cameraExample-cameraExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cameraExample-cameraExampleUITests-dummy.m"; sourceTree = "<group>"; };
-		C076B084D8DD1412191ADED6FB04549B /* CloudClientSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudClientSDK.h; sourceTree = "<group>"; };
-		C0C49175B0BE1F5C0AEE7D676D236E67 /* CameraCloudClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraCloudClient-prefix.pch"; sourceTree = "<group>"; };
-		C13BD135C7391E05D0689E293437B4D1 /* ClientSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ClientSession.h; sourceTree = "<group>"; };
-		C6A5F0732739058B82B81182B03A9681 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CAAAD2C612D3D34DB11D641BACDE2C5E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		CCD8143D09D486240B9457CEDB2F4921 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
-		CDD97592D9872742C8B28DA6FC033DB1 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
-		CE4AE92E87BA615AC8C329B245AB7B44 /* MJExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.debug.xcconfig; sourceTree = "<group>"; };
-		D36340537FA40A02CC95EAB20E7883C5 /* Pods-cameraExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cameraExampleTests.modulemap"; sourceTree = "<group>"; };
-		D4AA39722992178C121890FF107BDFDB /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
-		D87489B668882934F0D5090B05BDF328 /* AntsUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AntsUtil.h; sourceTree = "<group>"; };
-		DC8BE6A1F81B2EA204245CC63B2FD051 /* libCloudClientSDK4iOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCloudClientSDK4iOS.a; path = CameraCloudClient/Classes/Lib/libCloudClientSDK4iOS.a; sourceTree = "<group>"; };
-		DE5B7A2A2D52903F12286E6AC5B9A14B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		E1CDEC88926F3ECF5A354C7F200A0A91 /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJExtension.modulemap; sourceTree = "<group>"; };
-		E1F2D4B6FA59D541EA2D7414CED63243 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
-		E30FD2C57C6D1D79DA40191292D82ECE /* CameraCloudClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraCloudClient-umbrella.h"; sourceTree = "<group>"; };
-		E6E410A8EBEFDDC1A8FB9A89AF123B2D /* Pods_cameraExample_cameraExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cameraExample_cameraExampleUITests.framework; path = "Pods-cameraExample-cameraExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8A016F4CF1745DC6331BF23D63B39C1 /* CloudSDKCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudSDKCommon.h; sourceTree = "<group>"; };
-		EAE230A136C33D5DFC04E7CF843F6AA3 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
-		EB4DE630A1D5CD59D3DF1DECA3652A8F /* VideoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VideoView.m; sourceTree = "<group>"; };
-		EBAAA3CAAE5EF9861A4DC7C7584C3E98 /* Pods-cameraExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cameraExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F1677E44A587E61DCA0F931B2889708A /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
-		F5134D00BA39E1F659924C0BC949296C /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		F91CF9BB22485DC3F39D5C2F60905F49 /* MJExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.release.xcconfig; sourceTree = "<group>"; };
-		F9888BA6FEC1DE1D26D45D995FBAE643 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
-		FF1A2FD4019C2DAB2B988F5211E15D98 /* Pods-cameraExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FF997589C6C9B470B51797BBD9C12726 /* CameraCloudClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CameraCloudClient.framework; path = CameraCloudClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4577B9B05E98AA302201F30E51132A6 /* libPods-cameraExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-cameraExampleTests.a"; path = "libPods-cameraExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD65AD8F11502361C1DE62FD54059B9 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
+		AD61BC7E4A8377BF9EB4EB6251BD4412 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		B405A68B1B9C4B3A838F1AB33A8C8497 /* Pods-cameraExample-cameraExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraExample-cameraExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6380FA5AF90EF951BA514D2FD624D4E /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		BA7C8B8F33E39553840707B2DF27D169 /* Pods-cameraExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC06504934B8A509B4534384EFA45788 /* CloudClientSDKCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudClientSDKCommon.h; sourceTree = "<group>"; };
+		BE43E2C6980C87DFAFCCBB82238DD81B /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		BE488F7CAE79C8CD8EA806660C83F703 /* CameraCloudClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CameraCloudClient-dummy.m"; sourceTree = "<group>"; };
+		BF5FD0499DE4F7B3EC010C286287800B /* CameraCloudClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CameraCloudClient.release.xcconfig; sourceTree = "<group>"; };
+		C0DA8AF9BD3521DD64DCD8282E57EE80 /* Pods-cameraExample-cameraExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cameraExample-cameraExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		C3E680F9440406CFC60ABAF4730A7B85 /* AntsUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AntsUtil.h; sourceTree = "<group>"; };
+		C726D9954370D07AD83179823588B8B9 /* Pods-cameraExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cameraExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D155F88929E82017FD4EC88BDA39DE5B /* Pods-cameraExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraExample.release.xcconfig"; sourceTree = "<group>"; };
+		E06018EC01F8F55DA14CB10618B66DEF /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		E08A34D47B38E3D3111B534EFCB3BB32 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
+		E6E410A8EBEFDDC1A8FB9A89AF123B2D /* libPods-cameraExample-cameraExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-cameraExample-cameraExampleUITests.a"; path = "libPods-cameraExample-cameraExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB223AF8BEACC2B7077277639C2CFDF4 /* Pods-cameraExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cameraExample-dummy.m"; sourceTree = "<group>"; };
+		EDBD636C243B8B3EE756A091B1C250CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EECF1C28759D6E257ED995BD90E2EB78 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		EF1A14A04178E9BF90DEAA9F3BAB2C64 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
+		EF25CCA17D06FAB856469E73514A8CFD /* CloudSDKCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudSDKCommon.h; sourceTree = "<group>"; };
+		F0E396571230188B04C0682B426EBFC9 /* VideoLayer.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = VideoLayer.mm; sourceTree = "<group>"; };
+		F7DF4316B66B89F49CB51478FCA7E6E0 /* Pods-cameraExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cameraExampleTests-dummy.m"; sourceTree = "<group>"; };
+		F97A126A76BE35D7B8503D4149107D3B /* MJExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.release.xcconfig; sourceTree = "<group>"; };
+		FA52248B5D646F7B822F24A92FEDBE54 /* Pods-cameraExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC7BCAEE4CB6DCB3297A3A1C744F73BD /* Pods-cameraExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cameraExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF997589C6C9B470B51797BBD9C12726 /* libCameraCloudClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCameraCloudClient.a; path = libCameraCloudClient.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		56CFE17123688D31936ED4AB5A568DFD /* Frameworks */ = {
+		06B02E7DC5A1974BA013E150EE127020 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB88C7150B1CA5BACFF4171A5B191061 /* AVFoundation.framework in Frameworks */,
-				80CD1A0F2E37A0B2C0D7F58FC2C35C73 /* CoreMedia.framework in Frameworks */,
-				430069B3F09899E1E6FA0F67824D3885 /* Foundation.framework in Frameworks */,
-				77461FC3602461A01D6A122466787A42 /* NetworkExtension.framework in Frameworks */,
-				11970B98E7898793C626637572B181AF /* Security.framework in Frameworks */,
-				F6AA8E2C14C8B331D8EFEFC8B2886AC5 /* UIKit.framework in Frameworks */,
-				04AC3D02D5ACF7D80EA2EC26ED712CAE /* UserNotifications.framework in Frameworks */,
-				34D2A895CB5411B00503425281357D5F /* VideoToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		850F06326D70CEE9BE56426E4BC5210F /* Frameworks */ = {
+		86A7D24AE7781171FC0F9155A10608AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				071148B77D245E5F27EC998D763CC600 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E84A65BE24786915DDF135DD9FC5AF5 /* Frameworks */ = {
+		99A36213F86EFE574D3404575D98C5E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47289F47BA3F060CF9D143FCC066E8BB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C85ED785A1031F0A43DA2CA41637D5AD /* Frameworks */ = {
+		9FD8898A6A39948B2FFA43D7CE3D2FEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE342943F553813912F90C257280317 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3DFB7F06EC80553131DB5B0993D681C /* Frameworks */ = {
+		F16B903784B8CE82BB6E1FCF2AB5B2ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FC29E832DDAB80383225B6835060BA1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09CFB7B0128F70A029CD34F214B5EEA3 /* Support Files */ = {
+		1204F5C824D09C6422585D47D09C05CE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E1CDEC88926F3ECF5A354C7F200A0A91 /* MJExtension.modulemap */,
-				EAE230A136C33D5DFC04E7CF843F6AA3 /* MJExtension-dummy.m */,
-				B3E2896E58D70126F579F90790BB4670 /* MJExtension-Info.plist */,
-				520A3A9FD574A96B394D81B865C1E6BB /* MJExtension-prefix.pch */,
-				D4AA39722992178C121890FF107BDFDB /* MJExtension-umbrella.h */,
-				CE4AE92E87BA615AC8C329B245AB7B44 /* MJExtension.debug.xcconfig */,
-				F91CF9BB22485DC3F39D5C2F60905F49 /* MJExtension.release.xcconfig */,
+				7C9556D5993F0AD4CD1B27A4230B5C63 /* Pods-cameraExample */,
+				46141ED37621665375E518B60A2A2A27 /* Pods-cameraExample-cameraExampleUITests */,
+				CC875C8A9F89D331622FC9846FB6A236 /* Pods-cameraExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		16B9DA0A33E24891BF46D62B8D028498 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				342C3CBEECBED7B6687BC1DC11141264 /* MJExtension-dummy.m */,
+				E08A34D47B38E3D3111B534EFCB3BB32 /* MJExtension-prefix.pch */,
+				10C4EA46A8D33D8CF35D925FA648AA87 /* MJExtension.debug.xcconfig */,
+				F97A126A76BE35D7B8503D4149107D3B /* MJExtension.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MJExtension";
 			sourceTree = "<group>";
 		};
-		1E40CEF8E8748E4D5C32DD58AC77055E /* Products */ = {
+		310EDB2B6064C3629430AE67EB5E864A /* CameraCloudClient */ = {
 			isa = PBXGroup;
 			children = (
-				FF997589C6C9B470B51797BBD9C12726 /* CameraCloudClient.framework */,
-				2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */,
-				9018DE32765CCF38E7D9A0536BC71B42 /* Pods_cameraExample.framework */,
-				E6E410A8EBEFDDC1A8FB9A89AF123B2D /* Pods_cameraExample_cameraExampleUITests.framework */,
-				A4577B9B05E98AA302201F30E51132A6 /* Pods_cameraExampleTests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5616CC7744FCA16FD96ABD53F2AE8137 /* CameraCloudClient */ = {
-			isa = PBXGroup;
-			children = (
-				5CB191479271F58D30E48A22B55F2388 /* Frameworks */,
-				78CA4B1C961A8748B5A3F9AB729656B1 /* Inc */,
-				B8A44C9CCA11F2F40EA6A47C97BDD4B0 /* Pod */,
-				61C6A1CB98137221BFCAD2DB07B489D1 /* Support Files */,
-				8163B4914D318C748B0E05BDAAD50ED5 /* VideoView */,
+				31171E00A7C1EA72E327556CB354FA7D /* Frameworks */,
+				E939C77434E94E139A9A6390B9828C85 /* Inc */,
+				FDB138D8993344AF5FBD4F97C31367A1 /* Pod */,
+				CA348A1672FA81CAD861BE1E549AFBBF /* Support Files */,
+				F5AECF7E66CEA468D2E183A647EE4225 /* VideoView */,
 			);
 			name = CameraCloudClient;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		5CB191479271F58D30E48A22B55F2388 /* Frameworks */ = {
+		31171E00A7C1EA72E327556CB354FA7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DC8BE6A1F81B2EA204245CC63B2FD051 /* libCloudClientSDK4iOS.a */,
+				567A2D4FD1DF0AC045D88831BD2E6A1C /* libCloudClientSDK4iOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		61C6A1CB98137221BFCAD2DB07B489D1 /* Support Files */ = {
+		46141ED37621665375E518B60A2A2A27 /* Pods-cameraExample-cameraExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3DFBC2E2B33135ED7D369A5ACDF8D1B6 /* CameraCloudClient.modulemap */,
-				74F3181B94E011D97E46BDF4D5609ECD /* CameraCloudClient-dummy.m */,
-				8646B276BA47FC445C59E7DDC643487A /* CameraCloudClient-Info.plist */,
-				C0C49175B0BE1F5C0AEE7D676D236E67 /* CameraCloudClient-prefix.pch */,
-				E30FD2C57C6D1D79DA40191292D82ECE /* CameraCloudClient-umbrella.h */,
-				AE5131AFD2B2E97A3C71CE181EA68FFF /* CameraCloudClient.debug.xcconfig */,
-				02FE3DD87EBEB708271454228B820FEB /* CameraCloudClient.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "cameraExample/Pods/Target Support Files/CameraCloudClient";
-			sourceTree = "<group>";
-		};
-		6EFDC9E49D14C3D39A6517209B9882D3 /* Pods-cameraExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				D36340537FA40A02CC95EAB20E7883C5 /* Pods-cameraExampleTests.modulemap */,
-				EBAAA3CAAE5EF9861A4DC7C7584C3E98 /* Pods-cameraExampleTests-acknowledgements.markdown */,
-				2FDA00C766A7FBE7EAC6462FB9A8BD50 /* Pods-cameraExampleTests-acknowledgements.plist */,
-				2807192C3CE09FE99CC89B8ACA3931AA /* Pods-cameraExampleTests-dummy.m */,
-				8CFC50399FF1CF1E8052328D8C203D7D /* Pods-cameraExampleTests-Info.plist */,
-				04BFA87FDFC2DB3BA1F4C9601470D8DF /* Pods-cameraExampleTests-umbrella.h */,
-				FF1A2FD4019C2DAB2B988F5211E15D98 /* Pods-cameraExampleTests.debug.xcconfig */,
-				2DEB1774F58D828BF2CB4693DC19F756 /* Pods-cameraExampleTests.release.xcconfig */,
-			);
-			name = "Pods-cameraExampleTests";
-			path = "Target Support Files/Pods-cameraExampleTests";
-			sourceTree = "<group>";
-		};
-		719CA5929674AC8678D205FD53B3FCF1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				DE5B7A2A2D52903F12286E6AC5B9A14B /* AVFoundation.framework */,
-				5E6384F39521E0E5982D244B824593F1 /* CoreMedia.framework */,
-				4FAA1F74DC39F43637D8C55557735972 /* Foundation.framework */,
-				1B438A4946A07CD6FA5C576DF9A19B09 /* NetworkExtension.framework */,
-				CAAAD2C612D3D34DB11D641BACDE2C5E /* Security.framework */,
-				1DB5FE02EAEE2DE406745009031A8A5B /* UIKit.framework */,
-				83B50C83EA505A310526B959A80CDBD9 /* UserNotifications.framework */,
-				F5134D00BA39E1F659924C0BC949296C /* VideoToolbox.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7606933F22FF47F22875E9EE827BF45A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F8649F862466E7B0794B981C8302D63C /* Pods-cameraExample */,
-				ABB2CC7B477CA44B58B981C7EA5BB83F /* Pods-cameraExample-cameraExampleUITests */,
-				6EFDC9E49D14C3D39A6517209B9882D3 /* Pods-cameraExampleTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		78CA4B1C961A8748B5A3F9AB729656B1 /* Inc */ = {
-			isa = PBXGroup;
-			children = (
-				D87489B668882934F0D5090B05BDF328 /* AntsUtil.h */,
-				C13BD135C7391E05D0689E293437B4D1 /* ClientSession.h */,
-				C076B084D8DD1412191ADED6FB04549B /* CloudClientSDK.h */,
-				4BA8AD5DC46BEC78AD6539FA35DE0863 /* CloudClientSDK4iOS.h */,
-				49FDB2A07BE7E37CE6579DF50C60075E /* CloudClientSDKCommon.h */,
-				E8A016F4CF1745DC6331BF23D63B39C1 /* CloudSDKCommon.h */,
-			);
-			name = Inc;
-			path = CameraCloudClient/Classes/Inc;
-			sourceTree = "<group>";
-		};
-		7D8B2980341E57EE18FBD495F943AA11 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5616CC7744FCA16FD96ABD53F2AE8137 /* CameraCloudClient */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		808A5CABAA06C682B29EC43B40BF875E /* MJExtension */ = {
-			isa = PBXGroup;
-			children = (
-				4E0D1CDFA422DF34E039272161E024D3 /* MJExtension.h */,
-				5AC2F4FEDA5480035CE1BAF83E25D914 /* MJExtensionConst.h */,
-				8C0EC9D5133B0B0939C524CD463CB225 /* MJExtensionConst.m */,
-				2A92C2B40005CF9A440380490CC1C808 /* MJFoundation.h */,
-				CCD8143D09D486240B9457CEDB2F4921 /* MJFoundation.m */,
-				1D2E660F26D90631109BC6C139DCBE03 /* MJProperty.h */,
-				B7C748F53D69C9F41894F8E3EE99D4E6 /* MJProperty.m */,
-				647DEB7154D476B029B4483DB8CE289E /* MJPropertyKey.h */,
-				F9888BA6FEC1DE1D26D45D995FBAE643 /* MJPropertyKey.m */,
-				F1677E44A587E61DCA0F931B2889708A /* MJPropertyType.h */,
-				9439ED235893B1765356769F00419D69 /* MJPropertyType.m */,
-				7A82A404B552FB57557D37DC51173CFF /* NSObject+MJClass.h */,
-				A9DBDD41C00E04DBB9C274BD293F14DA /* NSObject+MJClass.m */,
-				B925662A8ED0D15431C1D807885D30C8 /* NSObject+MJCoding.h */,
-				38FAF5EB1DD403C7CDB888674662D978 /* NSObject+MJCoding.m */,
-				722454F711E3EB3686DFDDA5905AD548 /* NSObject+MJKeyValue.h */,
-				15E382DC0FAFC66BEB5E97EC9FA55C4C /* NSObject+MJKeyValue.m */,
-				52E1F10EA913620099996314C434C50D /* NSObject+MJProperty.h */,
-				E1F2D4B6FA59D541EA2D7414CED63243 /* NSObject+MJProperty.m */,
-				9EAED9402B0A0ED183081BF7FABAA59F /* NSString+MJExtension.h */,
-				CDD97592D9872742C8B28DA6FC033DB1 /* NSString+MJExtension.m */,
-				09CFB7B0128F70A029CD34F214B5EEA3 /* Support Files */,
-			);
-			name = MJExtension;
-			path = MJExtension;
-			sourceTree = "<group>";
-		};
-		8163B4914D318C748B0E05BDAAD50ED5 /* VideoView */ = {
-			isa = PBXGroup;
-			children = (
-				0E229AD3B414DC18A06750BC2EBCC270 /* VideoLayer.h */,
-				2BD95B06060FFEC736F73D8ED6D0FE24 /* VideoView.h */,
-				EB4DE630A1D5CD59D3DF1DECA3652A8F /* VideoView.m */,
-			);
-			name = VideoView;
-			path = CameraCloudClient/Classes/VideoView;
-			sourceTree = "<group>";
-		};
-		ABB2CC7B477CA44B58B981C7EA5BB83F /* Pods-cameraExample-cameraExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				834661BE29484E8F64E9018A79FDC1B4 /* Pods-cameraExample-cameraExampleUITests.modulemap */,
-				935557FEF07763DA4B5F57A3B45B3DB5 /* Pods-cameraExample-cameraExampleUITests-acknowledgements.markdown */,
-				0C17B7C1ABFDBE95CE2822A762FCE6C6 /* Pods-cameraExample-cameraExampleUITests-acknowledgements.plist */,
-				BBC0CCFCCB7880CB12BBFBD4B3076B4A /* Pods-cameraExample-cameraExampleUITests-dummy.m */,
-				476E36F7D06A2A94EAEDA055DF2C5547 /* Pods-cameraExample-cameraExampleUITests-frameworks.sh */,
-				9D766E55190577B2730B5B555C0B6BC4 /* Pods-cameraExample-cameraExampleUITests-Info.plist */,
-				31C54E291D5161E2D7C93A457350CE1A /* Pods-cameraExample-cameraExampleUITests-umbrella.h */,
-				0F65D1312CBF78545A4A36BC80CA82A3 /* Pods-cameraExample-cameraExampleUITests.debug.xcconfig */,
-				B89AF49835BE383C98AB0C9B3C54068F /* Pods-cameraExample-cameraExampleUITests.release.xcconfig */,
+				2D001CCFA7BCB7BB94068750526E34FB /* Pods-cameraExample-cameraExampleUITests-acknowledgements.markdown */,
+				999DC96B21CECB3D0E97E94670F0689B /* Pods-cameraExample-cameraExampleUITests-acknowledgements.plist */,
+				C0DA8AF9BD3521DD64DCD8282E57EE80 /* Pods-cameraExample-cameraExampleUITests-dummy.m */,
+				B405A68B1B9C4B3A838F1AB33A8C8497 /* Pods-cameraExample-cameraExampleUITests.debug.xcconfig */,
+				57C107B4B5D452E9426169291BD15A03 /* Pods-cameraExample-cameraExampleUITests.release.xcconfig */,
 			);
 			name = "Pods-cameraExample-cameraExampleUITests";
 			path = "Target Support Files/Pods-cameraExample-cameraExampleUITests";
 			sourceTree = "<group>";
 		};
-		B8A44C9CCA11F2F40EA6A47C97BDD4B0 /* Pod */ = {
+		7C9556D5993F0AD4CD1B27A4230B5C63 /* Pods-cameraExample */ = {
 			isa = PBXGroup;
 			children = (
-				5EF428EDEF37272EBBD092FB8A11723B /* CameraCloudClient.podspec */,
-				C6A5F0732739058B82B81182B03A9681 /* LICENSE */,
-				1477F500C15F975E35A05F1BCEB455C4 /* README.md */,
+				0FA7C6EE5FA8325DAC358C7F666786B3 /* Pods-cameraExample-acknowledgements.markdown */,
+				FC7BCAEE4CB6DCB3297A3A1C744F73BD /* Pods-cameraExample-acknowledgements.plist */,
+				EB223AF8BEACC2B7077277639C2CFDF4 /* Pods-cameraExample-dummy.m */,
+				4E4A3825A9896541344305902B24F04A /* Pods-cameraExample.debug.xcconfig */,
+				D155F88929E82017FD4EC88BDA39DE5B /* Pods-cameraExample.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Pods-cameraExample";
+			path = "Target Support Files/Pods-cameraExample";
+			sourceTree = "<group>";
+		};
+		7D8B2980341E57EE18FBD495F943AA11 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				310EDB2B6064C3629430AE67EB5E864A /* CameraCloudClient */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8B1D4436BF11CE4FB9E670E8A2CFCF7B /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				5C14E72FC19461F0D1DC8D1CDBA1250A /* MJExtension.h */,
+				34EAA63194CAA2D289E890ED758A2778 /* MJExtensionConst.h */,
+				792D005781B9BADBD9341EA4662BD319 /* MJExtensionConst.m */,
+				4A4BDEB67D5573F2B058C9C9BEE3AA96 /* MJFoundation.h */,
+				871570B6F8984C6B6B27A6BF8D7E8EA2 /* MJFoundation.m */,
+				90A683140218EABEFCC78C7F0728995B /* MJProperty.h */,
+				3CE893EB49F8860AB9ADAE7F94A5A2F2 /* MJProperty.m */,
+				EF1A14A04178E9BF90DEAA9F3BAB2C64 /* MJPropertyKey.h */,
+				ACD65AD8F11502361C1DE62FD54059B9 /* MJPropertyKey.m */,
+				53B291E497399D3479E1AEA9790BCF7C /* MJPropertyType.h */,
+				23F3C3EE22DDD434EBCE7A740A767316 /* MJPropertyType.m */,
+				426C244642FFFD93930663E5400D565D /* NSObject+MJClass.h */,
+				91916C37F1CB0EE1F37656B5E373A97B /* NSObject+MJClass.m */,
+				B6380FA5AF90EF951BA514D2FD624D4E /* NSObject+MJCoding.h */,
+				1EA10B9D1785B2C6ACAEAC092B06804D /* NSObject+MJCoding.m */,
+				6C8FA0BFE37804E370D4D784D60FEB72 /* NSObject+MJKeyValue.h */,
+				E06018EC01F8F55DA14CB10618B66DEF /* NSObject+MJKeyValue.m */,
+				BE43E2C6980C87DFAFCCBB82238DD81B /* NSObject+MJProperty.h */,
+				669F126BCAE7B7162889B19D14591374 /* NSObject+MJProperty.m */,
+				EECF1C28759D6E257ED995BD90E2EB78 /* NSString+MJExtension.h */,
+				AD61BC7E4A8377BF9EB4EB6251BD4412 /* NSString+MJExtension.m */,
+				16B9DA0A33E24891BF46D62B8D028498 /* Support Files */,
+			);
+			name = MJExtension;
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		B1C2EDEE8CBFF36474CE755406A42FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF997589C6C9B470B51797BBD9C12726 /* libCameraCloudClient.a */,
+				2B276B0A79173A1D6E83C9B4FB9A4A57 /* libMJExtension.a */,
+				9018DE32765CCF38E7D9A0536BC71B42 /* libPods-cameraExample.a */,
+				E6E410A8EBEFDDC1A8FB9A89AF123B2D /* libPods-cameraExample-cameraExampleUITests.a */,
+				A4577B9B05E98AA302201F30E51132A6 /* libPods-cameraExampleTests.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BBE7F25BDF6E2ECE64867498D8902AF4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				808A5CABAA06C682B29EC43B40BF875E /* MJExtension */,
+				8B1D4436BF11CE4FB9E670E8A2CFCF7B /* MJExtension */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA348A1672FA81CAD861BE1E549AFBBF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE488F7CAE79C8CD8EA806660C83F703 /* CameraCloudClient-dummy.m */,
+				358E52969F35B457AF7106ADB2B7FED7 /* CameraCloudClient-prefix.pch */,
+				9CD53A4623309AE9C9666D13071910CF /* CameraCloudClient.debug.xcconfig */,
+				BF5FD0499DE4F7B3EC010C286287800B /* CameraCloudClient.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "cameraExample/Pods/Target Support Files/CameraCloudClient";
+			sourceTree = "<group>";
+		};
+		CC875C8A9F89D331622FC9846FB6A236 /* Pods-cameraExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C726D9954370D07AD83179823588B8B9 /* Pods-cameraExampleTests-acknowledgements.markdown */,
+				6D2225D3D19E660DE527D88B01178C5B /* Pods-cameraExampleTests-acknowledgements.plist */,
+				F7DF4316B66B89F49CB51478FCA7E6E0 /* Pods-cameraExampleTests-dummy.m */,
+				FA52248B5D646F7B822F24A92FEDBE54 /* Pods-cameraExampleTests.debug.xcconfig */,
+				BA7C8B8F33E39553840707B2DF27D169 /* Pods-cameraExampleTests.release.xcconfig */,
+			);
+			name = "Pods-cameraExampleTests";
+			path = "Target Support Files/Pods-cameraExampleTests";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -448,97 +346,110 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				7D8B2980341E57EE18FBD495F943AA11 /* Development Pods */,
-				F119B4A0ABE017AECEE69836596133B2 /* Frameworks */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				BBE7F25BDF6E2ECE64867498D8902AF4 /* Pods */,
-				1E40CEF8E8748E4D5C32DD58AC77055E /* Products */,
-				7606933F22FF47F22875E9EE827BF45A /* Targets Support Files */,
+				B1C2EDEE8CBFF36474CE755406A42FF5 /* Products */,
+				1204F5C824D09C6422585D47D09C05CE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F119B4A0ABE017AECEE69836596133B2 /* Frameworks */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				719CA5929674AC8678D205FD53B3FCF1 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F8649F862466E7B0794B981C8302D63C /* Pods-cameraExample */ = {
+		E939C77434E94E139A9A6390B9828C85 /* Inc */ = {
 			isa = PBXGroup;
 			children = (
-				AC11B647F17EA157AE551E330A864668 /* Pods-cameraExample.modulemap */,
-				4E381C92021F24BC91834D6C41C3D310 /* Pods-cameraExample-acknowledgements.markdown */,
-				A1235F383B4C41E885A7A2353AF65B71 /* Pods-cameraExample-acknowledgements.plist */,
-				A3DE0E8A812A41B816CB3A90481A29E1 /* Pods-cameraExample-dummy.m */,
-				8FE85F6E03FD4E693E41DAE5016D827A /* Pods-cameraExample-frameworks.sh */,
-				5A54784825094F51A25E23777977EE65 /* Pods-cameraExample-Info.plist */,
-				924361D2D32E0E5A2EDCCDD75BBB31B6 /* Pods-cameraExample-umbrella.h */,
-				7F1B78D89F78FB2CB3845B2369545833 /* Pods-cameraExample.debug.xcconfig */,
-				B3F98C10FAB28F2C21631B4A78FC8D5E /* Pods-cameraExample.release.xcconfig */,
+				C3E680F9440406CFC60ABAF4730A7B85 /* AntsUtil.h */,
+				39C6185968E00E11350AD0E35020C302 /* ClientSession.h */,
+				7F641F7ED54BAC27254E83FF15CC9576 /* CloudClientSDK.h */,
+				86850CB88A23CC7C113709E3696E6A93 /* CloudClientSDK4iOS.h */,
+				BC06504934B8A509B4534384EFA45788 /* CloudClientSDKCommon.h */,
+				EF25CCA17D06FAB856469E73514A8CFD /* CloudSDKCommon.h */,
 			);
-			name = "Pods-cameraExample";
-			path = "Target Support Files/Pods-cameraExample";
+			name = Inc;
+			path = CameraCloudClient/Classes/Inc;
+			sourceTree = "<group>";
+		};
+		F5AECF7E66CEA468D2E183A647EE4225 /* VideoView */ = {
+			isa = PBXGroup;
+			children = (
+				0DA65AB88B3D9F79E66A164D6D963F03 /* VideoLayer.h */,
+				F0E396571230188B04C0682B426EBFC9 /* VideoLayer.mm */,
+				511BDF18A2EE632F108C893027ACF761 /* VideoView.h */,
+				22A4B0B354C7148DED35F3EE6C1689EF /* VideoView.m */,
+			);
+			name = VideoView;
+			path = CameraCloudClient/Classes/VideoView;
+			sourceTree = "<group>";
+		};
+		FDB138D8993344AF5FBD4F97C31367A1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7E3D53ECB72A63010AE0BBC0D25B5A83 /* CameraCloudClient.podspec */,
+				EDBD636C243B8B3EE756A091B1C250CE /* LICENSE */,
+				2BC01D8F5263E38E1E7B0A5430943EA7 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0F62A8886C10A8199A72E17420512D09 /* Headers */ = {
+		2A02B6926CFFED3762AEBA19516F45FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				406D2B37572A03534672CAC2DB6BAD31 /* AntsUtil.h in Headers */,
-				5B76CE44BE39C7C35B868463D6C36CB0 /* CameraCloudClient-umbrella.h in Headers */,
-				2C5B0003A767ABB5B9AAA900E9E95505 /* ClientSession.h in Headers */,
-				026061EE3B5F5263578D62A6F8D5FE74 /* CloudClientSDK.h in Headers */,
-				D3D4A46C6DBBDF3D57DEAD6551C8326A /* CloudClientSDK4iOS.h in Headers */,
-				9FB79AF80BE54B2E32BFF574F3211631 /* CloudClientSDKCommon.h in Headers */,
-				D2B7FA8231B6B0612E851E5CFC724448 /* CloudSDKCommon.h in Headers */,
-				198F390011A3B323462CE7BD88F7DF86 /* VideoLayer.h in Headers */,
-				0739AA1BAFE1926609E7EDFC78AB41C5 /* VideoView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		378E0A580FFE237FCA407D26BB5B9F2A /* Headers */ = {
+		3304A9ABB8207833A11A244FD15FE9AF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EB2DB353C463B2DE9A282F821E3A62A /* Pods-cameraExampleTests-umbrella.h in Headers */,
+				34E253EB078AE14E619398EB86C16A2F /* MJExtension.h in Headers */,
+				D893D6C7E5B0E596BA3C0AB454321280 /* MJExtensionConst.h in Headers */,
+				B6359596A32B855FAD947ED012D5492F /* MJFoundation.h in Headers */,
+				5672C08B2E4A956A54FBBC0BFC17DC82 /* MJProperty.h in Headers */,
+				253C3DC37B49553B049C04986B78CEBD /* MJPropertyKey.h in Headers */,
+				1609407914B4474BD6125FC9C2BCDE67 /* MJPropertyType.h in Headers */,
+				A34EF90FD9DB3AB735F37BBC82B7C941 /* NSObject+MJClass.h in Headers */,
+				DD7095E416D8763B2BB1D6E306C91EAC /* NSObject+MJCoding.h in Headers */,
+				78F55DC767AEA052701BFFFAF2E63E9F /* NSObject+MJKeyValue.h in Headers */,
+				822B66E63ED92684C095C8BF6F55F9BE /* NSObject+MJProperty.h in Headers */,
+				EE063BC538B8FD4EBADFEAF85D731173 /* NSString+MJExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB1DE317F3D4815D87890DEB09B99C2E /* Headers */ = {
+		42C886AD28FAC106C094759CA35AA7A0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41BBD20F99D3D0EFD9D38337503D4C1F /* MJExtension-umbrella.h in Headers */,
-				9796F9FAC1941A992E8B17F31D62B2E4 /* MJExtension.h in Headers */,
-				912758556B9AB1DEEABE189955C5B8F2 /* MJExtensionConst.h in Headers */,
-				CAD2539BE3C4AB2F1FD1DF30D7629238 /* MJFoundation.h in Headers */,
-				FAB7CF107E7E3EE6FA7949CF18B8BA12 /* MJProperty.h in Headers */,
-				A47472F50A3A7869A644789159571A5C /* MJPropertyKey.h in Headers */,
-				B94AD428EA4EFD7BA79BCF57680D390A /* MJPropertyType.h in Headers */,
-				F0EF96DAB145D1B2247C01B3517B54FE /* NSObject+MJClass.h in Headers */,
-				6EC015330CAC3D60745A20B01928B8DB /* NSObject+MJCoding.h in Headers */,
-				25E03213AA01D83EB415A04635B34F1A /* NSObject+MJKeyValue.h in Headers */,
-				C0C8961B2EAF90DA7244B427C569FCFD /* NSObject+MJProperty.h in Headers */,
-				51E7A17D617310CE81444F5D315EAEF0 /* NSString+MJExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5B224E7499CFF1C7A9E3E755E430577 /* Headers */ = {
+		5CFD42405DD0CDD86AA1096C7991DE64 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1446C1A8A256576577B63067AA78F07D /* Pods-cameraExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9DBAF0E60EC1E2FFCCBF92E1A6F781D /* Headers */ = {
+		7E3CE06EB6D6F1870CAD8DF49E4B0790 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD4C1DB323182EF15C34F075982F977 /* Pods-cameraExample-cameraExampleUITests-umbrella.h in Headers */,
+				D5193B543A6DD25467FF52BF6DA219A6 /* AntsUtil.h in Headers */,
+				2E7FA3D435508F88A15669B05CBC9741 /* ClientSession.h in Headers */,
+				362544FCF1660239CB47AA8693FB370B /* CloudClientSDK.h in Headers */,
+				F4BDFF8CF04EB586725489C0DB8D3B6C /* CloudClientSDK4iOS.h in Headers */,
+				F508F6669F5F32804106EC970EDFE4C3 /* CloudClientSDKCommon.h in Headers */,
+				5ED02E05F54B4005F8DDD69F1F14C170 /* CloudSDKCommon.h in Headers */,
+				C694C517A4DAB8620364531833887D5F /* VideoLayer.h in Headers */,
+				789544A75BCAFA4FE5B94A1CFB26112C /* VideoView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,12 +458,11 @@
 /* Begin PBXNativeTarget section */
 		02672DB25C32C4BA41E89C664A504131 /* CameraCloudClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0FC5ABF7E88A1C4F78B601AC8231E33 /* Build configuration list for PBXNativeTarget "CameraCloudClient" */;
+			buildConfigurationList = 2DC5474B1C1A10E4BCD1FF943235EA55 /* Build configuration list for PBXNativeTarget "CameraCloudClient" */;
 			buildPhases = (
-				0F62A8886C10A8199A72E17420512D09 /* Headers */,
-				CB4279FBB6453485CBD86F10FFE1BB6B /* Sources */,
-				56CFE17123688D31936ED4AB5A568DFD /* Frameworks */,
-				D562DACFD40F1A38B9EF02B48C23494F /* Resources */,
+				7E3CE06EB6D6F1870CAD8DF49E4B0790 /* Headers */,
+				E9247DE5986E530F182FC73E8512EF2E /* Sources */,
+				86A7D24AE7781171FC0F9155A10608AF /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -560,17 +470,16 @@
 			);
 			name = CameraCloudClient;
 			productName = CameraCloudClient;
-			productReference = FF997589C6C9B470B51797BBD9C12726 /* CameraCloudClient.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = FF997589C6C9B470B51797BBD9C12726 /* libCameraCloudClient.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B8E68449A18121BC5A5B5C491F1283E /* Build configuration list for PBXNativeTarget "MJExtension" */;
+			buildConfigurationList = 9AED9370D9C044D9419AFE51BFB65889 /* Build configuration list for PBXNativeTarget "MJExtension" */;
 			buildPhases = (
-				DB1DE317F3D4815D87890DEB09B99C2E /* Headers */,
-				7062CDA8FD11E2E9D19A9A40021C44AD /* Sources */,
-				E3DFB7F06EC80553131DB5B0993D681C /* Frameworks */,
-				5526C4C8822D8F13C2C736A5F9677481 /* Resources */,
+				3304A9ABB8207833A11A244FD15FE9AF /* Headers */,
+				B4C32AA7EDE5529D38F255EC27A87885 /* Sources */,
+				F16B903784B8CE82BB6E1FCF2AB5B2ED /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -578,67 +487,64 @@
 			);
 			name = MJExtension;
 			productName = MJExtension;
-			productReference = 2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 2B276B0A79173A1D6E83C9B4FB9A4A57 /* libMJExtension.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		A7D1299BAC827D3DF8A6638F42F60C3E /* Pods-cameraExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77EC21ED20FEFA772A7CDF07F2C0E6B8 /* Build configuration list for PBXNativeTarget "Pods-cameraExampleTests" */;
+			buildConfigurationList = 9CC0B1D1C4C3192466CBFC2503E23CF9 /* Build configuration list for PBXNativeTarget "Pods-cameraExampleTests" */;
 			buildPhases = (
-				378E0A580FFE237FCA407D26BB5B9F2A /* Headers */,
-				89E10E736D473D2D5562932C0601370B /* Sources */,
-				C85ED785A1031F0A43DA2CA41637D5AD /* Frameworks */,
-				748CD0114F1A924B6AC34927EF20B91B /* Resources */,
+				42C886AD28FAC106C094759CA35AA7A0 /* Headers */,
+				A7BA92C4EF8136FFA4D1CBC769784AEA /* Sources */,
+				9FD8898A6A39948B2FFA43D7CE3D2FEB /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A23575D39D149D4D66D5BBBDB34B96C1 /* PBXTargetDependency */,
+				CDF5953FB25189C0A89B979AF054C7EF /* PBXTargetDependency */,
 			);
 			name = "Pods-cameraExampleTests";
 			productName = "Pods-cameraExampleTests";
-			productReference = A4577B9B05E98AA302201F30E51132A6 /* Pods_cameraExampleTests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = A4577B9B05E98AA302201F30E51132A6 /* libPods-cameraExampleTests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		BF3E60EFC1619945777F904A099208E0 /* Pods-cameraExample-cameraExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5156E09781AC79C8E3462F4D64AE0C9 /* Build configuration list for PBXNativeTarget "Pods-cameraExample-cameraExampleUITests" */;
+			buildConfigurationList = BBC9CEFB0C6DE362F3FF64340A3A5FB0 /* Build configuration list for PBXNativeTarget "Pods-cameraExample-cameraExampleUITests" */;
 			buildPhases = (
-				F9DBAF0E60EC1E2FFCCBF92E1A6F781D /* Headers */,
-				39AB9E6E4EA6CB7E47E5AC1C5A195EF0 /* Sources */,
-				850F06326D70CEE9BE56426E4BC5210F /* Frameworks */,
-				F4A5ABC8A75489847FB741D93C8F37D7 /* Resources */,
+				5CFD42405DD0CDD86AA1096C7991DE64 /* Headers */,
+				B579E5DC1620B1E2D15006901069F843 /* Sources */,
+				06B02E7DC5A1974BA013E150EE127020 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9A8CF0DDCD74D662588B79945C6C6B7C /* PBXTargetDependency */,
-				93B29FE1AA5E509E5CDE73B601C7D4AB /* PBXTargetDependency */,
+				3090F111A2B6F5F8880F8767CCA1E61A /* PBXTargetDependency */,
+				393BD30FC0513027CF29B8A961BFD73F /* PBXTargetDependency */,
 			);
 			name = "Pods-cameraExample-cameraExampleUITests";
 			productName = "Pods-cameraExample-cameraExampleUITests";
-			productReference = E6E410A8EBEFDDC1A8FB9A89AF123B2D /* Pods_cameraExample_cameraExampleUITests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = E6E410A8EBEFDDC1A8FB9A89AF123B2D /* libPods-cameraExample-cameraExampleUITests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		DA11D3029B7CA7020A7BC5D39A9D9610 /* Pods-cameraExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46356A18DB8C85D09BF1DAD7C6824580 /* Build configuration list for PBXNativeTarget "Pods-cameraExample" */;
+			buildConfigurationList = E94AF1708F756F622785B7E4B41FE472 /* Build configuration list for PBXNativeTarget "Pods-cameraExample" */;
 			buildPhases = (
-				E5B224E7499CFF1C7A9E3E755E430577 /* Headers */,
-				F942C09AC3F7E75D1607FC3FF5B5C60B /* Sources */,
-				8E84A65BE24786915DDF135DD9FC5AF5 /* Frameworks */,
-				EF2ACC5ACA33C2914FC1A29784FD4AB0 /* Resources */,
+				2A02B6926CFFED3762AEBA19516F45FF /* Headers */,
+				DC8D9735148C407F84D5898144961EE4 /* Sources */,
+				99A36213F86EFE574D3404575D98C5E6 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D54B8A4CEDC3AB7B71B6D7F1C3ED0F17 /* PBXTargetDependency */,
-				BC55551E74A1AE07EEBD673B3343A1B5 /* PBXTargetDependency */,
+				A92A9B8C1AB7846E0DE9E3A032FBF4B8 /* PBXTargetDependency */,
+				ACE133E94A334A6EEB7169DFD568EBED /* PBXTargetDependency */,
 			);
 			name = "Pods-cameraExample";
 			productName = "Pods-cameraExample";
-			productReference = 9018DE32765CCF38E7D9A0536BC71B42 /* Pods_cameraExample.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 9018DE32765CCF38E7D9A0536BC71B42 /* libPods-cameraExample.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -650,7 +556,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -658,7 +564,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1E40CEF8E8748E4D5C32DD58AC77055E /* Products */;
+			productRefGroup = B1C2EDEE8CBFF36474CE755406A42FF5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -671,313 +577,207 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		5526C4C8822D8F13C2C736A5F9677481 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		748CD0114F1A924B6AC34927EF20B91B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D562DACFD40F1A38B9EF02B48C23494F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF2ACC5ACA33C2914FC1A29784FD4AB0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4A5ABC8A75489847FB741D93C8F37D7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		39AB9E6E4EA6CB7E47E5AC1C5A195EF0 /* Sources */ = {
+		A7BA92C4EF8136FFA4D1CBC769784AEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD4BD46392BF058431313883796BBFA1 /* Pods-cameraExample-cameraExampleUITests-dummy.m in Sources */,
+				C6B2289F4DEF640564992066C56691FD /* Pods-cameraExampleTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7062CDA8FD11E2E9D19A9A40021C44AD /* Sources */ = {
+		B4C32AA7EDE5529D38F255EC27A87885 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05452B06007B8F1969A23C3C9D494CBD /* MJExtension-dummy.m in Sources */,
-				01E3E1FB1F9A0FA56C79608F8139A32F /* MJExtensionConst.m in Sources */,
-				033484819373AB7E020C0026CAE0F7BF /* MJFoundation.m in Sources */,
-				3BAA6DDBE44238B40D6A72A16EF41814 /* MJProperty.m in Sources */,
-				7155607EADA71F37CFE188D866B7E40A /* MJPropertyKey.m in Sources */,
-				8A2E1E487FBFC3DF55C12C056BFA36A1 /* MJPropertyType.m in Sources */,
-				0077E2C1E1042512F36A3204CFD42BEF /* NSObject+MJClass.m in Sources */,
-				7BE71B62F38458AC771581F60006F9CE /* NSObject+MJCoding.m in Sources */,
-				99BF63084CB0EDEA0A9CBB77E8315E6E /* NSObject+MJKeyValue.m in Sources */,
-				07288680C9E7EDC1E240E0E3C50EE65C /* NSObject+MJProperty.m in Sources */,
-				E6775033B3F0080B56E29AB395A08867 /* NSString+MJExtension.m in Sources */,
+				9A118C01C80CDBD88A3CE9F9ED917B40 /* MJExtension-dummy.m in Sources */,
+				6D29803833E4A3A93AD4165AEC2A06E7 /* MJExtensionConst.m in Sources */,
+				29765CB05CE9FA4A2CEE05424C0AF136 /* MJFoundation.m in Sources */,
+				0E62A7BD7A3829532433091FDE652B95 /* MJProperty.m in Sources */,
+				99B7688A77DE2E48E52D0F5B26E24CCA /* MJPropertyKey.m in Sources */,
+				174206A450C45E65A09563FEE1EA3DA7 /* MJPropertyType.m in Sources */,
+				BEA2806A316E9E55639261BB27C6B99B /* NSObject+MJClass.m in Sources */,
+				53904AC7D05BAAAB968AAA084AB04625 /* NSObject+MJCoding.m in Sources */,
+				29BD11FAB79791AAA2CD25BD4D5A2BAF /* NSObject+MJKeyValue.m in Sources */,
+				75BCAD159F48A7F49337FCA96437148E /* NSObject+MJProperty.m in Sources */,
+				4B90704C9954AD4B1D3894941458B9DE /* NSString+MJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89E10E736D473D2D5562932C0601370B /* Sources */ = {
+		B579E5DC1620B1E2D15006901069F843 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				375A2D1B0A40EE45216A2422DEDA9723 /* Pods-cameraExampleTests-dummy.m in Sources */,
+				F6BCE5B20F06207E1AC7B55B19B3CDF4 /* Pods-cameraExample-cameraExampleUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB4279FBB6453485CBD86F10FFE1BB6B /* Sources */ = {
+		DC8D9735148C407F84D5898144961EE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				616F48248BE1F77B23B15035DFF25874 /* CameraCloudClient-dummy.m in Sources */,
-				51B52CF3C36FD569F6D55036860EC6F5 /* VideoView.m in Sources */,
+				7EE20C32266DB5C818EC2677F58AEC90 /* Pods-cameraExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F942C09AC3F7E75D1607FC3FF5B5C60B /* Sources */ = {
+		E9247DE5986E530F182FC73E8512EF2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF167B26445F7F436F91498A4FE0BAD /* Pods-cameraExample-dummy.m in Sources */,
+				C457593EB538B48217F4EDE26FDB4D86 /* CameraCloudClient-dummy.m in Sources */,
+				A188850C0FDCAE1C7E6983AFABEF0439 /* VideoLayer.mm in Sources */,
+				5A30D4975A5622049E0246992CEAC2CD /* VideoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		93B29FE1AA5E509E5CDE73B601C7D4AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MJExtension;
-			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
-			targetProxy = 6CCEECF59520E64A800E2567A9CF222F /* PBXContainerItemProxy */;
-		};
-		9A8CF0DDCD74D662588B79945C6C6B7C /* PBXTargetDependency */ = {
+		3090F111A2B6F5F8880F8767CCA1E61A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CameraCloudClient;
 			target = 02672DB25C32C4BA41E89C664A504131 /* CameraCloudClient */;
-			targetProxy = 1CD32CE456D02F539F8C4A011B963612 /* PBXContainerItemProxy */;
+			targetProxy = BAA0905DFB7DC52C117F78648DB8D29A /* PBXContainerItemProxy */;
 		};
-		A23575D39D149D4D66D5BBBDB34B96C1 /* PBXTargetDependency */ = {
+		393BD30FC0513027CF29B8A961BFD73F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
+			targetProxy = F53A184D8E3BC0E685F48956889B7C6C /* PBXContainerItemProxy */;
+		};
+		A92A9B8C1AB7846E0DE9E3A032FBF4B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CameraCloudClient;
+			target = 02672DB25C32C4BA41E89C664A504131 /* CameraCloudClient */;
+			targetProxy = FCF30E185E2C443E53D0387B6FAE3E6C /* PBXContainerItemProxy */;
+		};
+		ACE133E94A334A6EEB7169DFD568EBED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
+			targetProxy = 3B6CA98C409DB2BCC8F730FDA8D8FC1D /* PBXContainerItemProxy */;
+		};
+		CDF5953FB25189C0A89B979AF054C7EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-cameraExample";
 			target = DA11D3029B7CA7020A7BC5D39A9D9610 /* Pods-cameraExample */;
-			targetProxy = 8D3FC788464419E7E863285C7D1ED565 /* PBXContainerItemProxy */;
-		};
-		BC55551E74A1AE07EEBD673B3343A1B5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MJExtension;
-			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
-			targetProxy = A88A1F5BE2D921A43B444648253876BD /* PBXContainerItemProxy */;
-		};
-		D54B8A4CEDC3AB7B71B6D7F1C3ED0F17 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CameraCloudClient;
-			target = 02672DB25C32C4BA41E89C664A504131 /* CameraCloudClient */;
-			targetProxy = E64610230D9415F4B5E8947BE7EF775A /* PBXContainerItemProxy */;
+			targetProxy = 1298B1E0135CCB539CEA5622508DFD7C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13817CA2D4B7D61D7C4A0ECED90675A5 /* Debug */ = {
+		266E3DE7A1426A9E4C8D06B5A54B6DBC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F1B78D89F78FB2CB3845B2369545833 /* Pods-cameraExample.debug.xcconfig */;
+			baseConfigurationReference = D155F88929E82017FD4EC88BDA39DE5B /* Pods-cameraExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-cameraExample/Pods-cameraExample-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-cameraExample/Pods-cameraExample.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		5F73FAFE8B8967E89A0F1B2A0C6A2E64 /* Release */ = {
+		3E905FFFE330CEC6EF0BA98A492A913F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F91CF9BB22485DC3F39D5C2F60905F49 /* MJExtension.release.xcconfig */;
+			baseConfigurationReference = 10C4EA46A8D33D8CF35D925FA648AA87 /* MJExtension.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = MJExtension;
 				PRODUCT_NAME = MJExtension;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		79D32C1524C2DFE1D252BB1D31CDB3E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B89AF49835BE383C98AB0C9B3C54068F /* Pods-cameraExample-cameraExampleUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-cameraExample-cameraExampleUITests/Pods-cameraExample-cameraExampleUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-cameraExample-cameraExampleUITests/Pods-cameraExample-cameraExampleUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7A501FB418342C97F7526B03B3FA41FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3F98C10FAB28F2C21631B4A78FC8D5E /* Pods-cameraExample.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-cameraExample/Pods-cameraExample-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-cameraExample/Pods-cameraExample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8E78E78447EF375F61C0D4D54FD3FCCE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE5131AFD2B2E97A3C71CE181EA68FFF /* CameraCloudClient.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CameraCloudClient/CameraCloudClient-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CameraCloudClient/CameraCloudClient-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CameraCloudClient/CameraCloudClient.modulemap";
-				PRODUCT_MODULE_NAME = CameraCloudClient;
-				PRODUCT_NAME = CameraCloudClient;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		4A27D55D085A9996997C4CF8D28CF9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B405A68B1B9C4B3A838F1AB33A8C8497 /* Pods-cameraExample-cameraExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51C8AE98E98D80620962ECB8C32AF4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD53A4623309AE9C9666D13071910CF /* CameraCloudClient.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CameraCloudClient/CameraCloudClient-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CameraCloudClient;
+				PRODUCT_NAME = CameraCloudClient;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88CE8442E17DA3262A2433362453A7E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97A126A76BE35D7B8503D4149107D3B /* MJExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MJExtension;
+				PRODUCT_NAME = MJExtension;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1103,195 +903,124 @@
 			};
 			name = Debug;
 		};
-		9835DBB053E545B26C5D5E35B210B3FD /* Release */ = {
+		936E882AB2E6233203BC07CC3CE26B5C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02FE3DD87EBEB708271454228B820FEB /* CameraCloudClient.release.xcconfig */;
+			baseConfigurationReference = BA7C8B8F33E39553840707B2DF27D169 /* Pods-cameraExampleTests.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4893AC86A7FA1CBB02E6849AD8A3D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E4A3825A9896541344305902B24F04A /* Pods-cameraExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B69AE04718B844EC4D4C19FE3FEB51FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA52248B5D646F7B822F24A92FEDBE54 /* Pods-cameraExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8404C60C186C1871B1312AC4C7B2DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5FD0499DE4F7B3EC010C286287800B /* CameraCloudClient.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/CameraCloudClient/CameraCloudClient-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CameraCloudClient/CameraCloudClient-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CameraCloudClient/CameraCloudClient.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = CameraCloudClient;
 				PRODUCT_NAME = CameraCloudClient;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		9E042FFB3D15F7C4EE2EFF8637287E04 /* Debug */ = {
+		EDD13E35A2140D7ADD9F80935CBD2AF7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF1A2FD4019C2DAB2B988F5211E15D98 /* Pods-cameraExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 57C107B4B5D452E9426169291BD15A03 /* Pods-cameraExample-cameraExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-cameraExampleTests/Pods-cameraExampleTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-cameraExampleTests/Pods-cameraExampleTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A00DDADACBB647088CE0746333A1AA02 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F65D1312CBF78545A4A36BC80CA82A3 /* Pods-cameraExample-cameraExampleUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-cameraExample-cameraExampleUITests/Pods-cameraExample-cameraExampleUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-cameraExample-cameraExampleUITests/Pods-cameraExample-cameraExampleUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A3B3A73925A4B59D6C61D218FE4D4495 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DEB1774F58D828BF2CB4693DC19F756 /* Pods-cameraExampleTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-cameraExampleTests/Pods-cameraExampleTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-cameraExampleTests/Pods-cameraExampleTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		B8727AE0BCFC028F864893C133D2F060 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE4AE92E87BA615AC8C329B245AB7B44 /* MJExtension.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
-				PRODUCT_MODULE_NAME = MJExtension;
-				PRODUCT_NAME = MJExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		46356A18DB8C85D09BF1DAD7C6824580 /* Build configuration list for PBXNativeTarget "Pods-cameraExample" */ = {
+		2DC5474B1C1A10E4BCD1FF943235EA55 /* Build configuration list for PBXNativeTarget "CameraCloudClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13817CA2D4B7D61D7C4A0ECED90675A5 /* Debug */,
-				7A501FB418342C97F7526B03B3FA41FC /* Release */,
+				51C8AE98E98D80620962ECB8C32AF4E4 /* Debug */,
+				D8404C60C186C1871B1312AC4C7B2DFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1305,38 +1034,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B8E68449A18121BC5A5B5C491F1283E /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
+		9AED9370D9C044D9419AFE51BFB65889 /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8727AE0BCFC028F864893C133D2F060 /* Debug */,
-				5F73FAFE8B8967E89A0F1B2A0C6A2E64 /* Release */,
+				3E905FFFE330CEC6EF0BA98A492A913F /* Debug */,
+				88CE8442E17DA3262A2433362453A7E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77EC21ED20FEFA772A7CDF07F2C0E6B8 /* Build configuration list for PBXNativeTarget "Pods-cameraExampleTests" */ = {
+		9CC0B1D1C4C3192466CBFC2503E23CF9 /* Build configuration list for PBXNativeTarget "Pods-cameraExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E042FFB3D15F7C4EE2EFF8637287E04 /* Debug */,
-				A3B3A73925A4B59D6C61D218FE4D4495 /* Release */,
+				B69AE04718B844EC4D4C19FE3FEB51FC /* Debug */,
+				936E882AB2E6233203BC07CC3CE26B5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0FC5ABF7E88A1C4F78B601AC8231E33 /* Build configuration list for PBXNativeTarget "CameraCloudClient" */ = {
+		BBC9CEFB0C6DE362F3FF64340A3A5FB0 /* Build configuration list for PBXNativeTarget "Pods-cameraExample-cameraExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E78E78447EF375F61C0D4D54FD3FCCE /* Debug */,
-				9835DBB053E545B26C5D5E35B210B3FD /* Release */,
+				4A27D55D085A9996997C4CF8D28CF9F6 /* Debug */,
+				EDD13E35A2140D7ADD9F80935CBD2AF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5156E09781AC79C8E3462F4D64AE0C9 /* Build configuration list for PBXNativeTarget "Pods-cameraExample-cameraExampleUITests" */ = {
+		E94AF1708F756F622785B7E4B41FE472 /* Build configuration list for PBXNativeTarget "Pods-cameraExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A00DDADACBB647088CE0746333A1AA02 /* Debug */,
-				79D32C1524C2DFE1D252BB1D31CDB3E7 /* Release */,
+				A4893AC86A7FA1CBB02E6849AD8A3D6A /* Debug */,
+				266E3DE7A1426A9E4C8D06B5A54B6DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

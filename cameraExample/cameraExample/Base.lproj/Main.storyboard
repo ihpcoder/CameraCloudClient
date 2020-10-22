@@ -1,24 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rrr-M0-gc3">
+                                <rect key="frame" x="40" y="662" width="31" height="30"/>
+                                <state key="normal" title="回放"/>
+                                <connections>
+                                    <action selector="clickReplayBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kHV-yM-g6U"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00倍速" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ti1-o3-5Yg">
+                                <rect key="frame" x="122" y="766.5" width="56" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITI-Ej-Ou7">
+                                <rect key="frame" x="40" y="712" width="46" height="30"/>
+                                <state key="normal" title="开预览"/>
+                                <connections>
+                                    <action selector="clickOpenRealBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m9f-Cc-ggW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMl-JT-LpE">
+                                <rect key="frame" x="126" y="712" width="46" height="30"/>
+                                <state key="normal" title="关预览"/>
+                                <connections>
+                                    <action selector="clickStopRealPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g1c-80-Boh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fab-p6-oyx">
+                                <rect key="frame" x="40" y="762" width="62" height="30"/>
+                                <state key="normal" title="回放减速"/>
+                                <connections>
+                                    <action selector="clickSlowReplay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lpU-PY-YMk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pl8-JB-2fL">
+                                <rect key="frame" x="198" y="762" width="62" height="30"/>
+                                <state key="normal" title="回放加速"/>
+                                <connections>
+                                    <action selector="clickSpeedUpReplay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PoN-aY-fmJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6w9-ma-Rzw">
+                                <rect key="frame" x="40" y="812" width="62" height="30"/>
+                                <state key="normal" title="消息订阅"/>
+                                <connections>
+                                    <action selector="clickAlarmBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TO2-ZV-K69"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3p-Og-zRJ">
+                                <rect key="frame" x="122" y="812" width="31" height="30"/>
+                                <state key="normal" title="登陆"/>
+                                <connections>
+                                    <action selector="deviceLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kVa-3i-01t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5mH-bU-va4">
+                                <rect key="frame" x="111" y="662" width="46" height="30"/>
+                                <state key="normal" title="关回放"/>
+                                <connections>
+                                    <action selector="clickStopRePlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OmW-4b-Qef"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Fab-p6-oyx" firstAttribute="top" secondItem="ITI-Ej-Ou7" secondAttribute="bottom" constant="20" id="04o-mQ-7LL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="O3p-Og-zRJ" secondAttribute="bottom" constant="20" id="1ew-z6-ZVS"/>
+                            <constraint firstItem="cMl-JT-LpE" firstAttribute="top" secondItem="5mH-bU-va4" secondAttribute="bottom" constant="20" id="4Ue-EP-Rrn"/>
+                            <constraint firstItem="Rrr-M0-gc3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="HUJ-ku-2Xz"/>
+                            <constraint firstItem="cMl-JT-LpE" firstAttribute="leading" secondItem="ITI-Ej-Ou7" secondAttribute="trailing" constant="40" id="Hmk-cm-abX"/>
+                            <constraint firstItem="5mH-bU-va4" firstAttribute="leading" secondItem="Rrr-M0-gc3" secondAttribute="trailing" constant="40" id="IPY-Xc-zth"/>
+                            <constraint firstItem="ti1-o3-5Yg" firstAttribute="leading" secondItem="Fab-p6-oyx" secondAttribute="trailing" constant="20" id="K3v-Yi-eSD"/>
+                            <constraint firstItem="ITI-Ej-Ou7" firstAttribute="top" secondItem="Rrr-M0-gc3" secondAttribute="bottom" constant="20" id="KKD-6s-fb0"/>
+                            <constraint firstItem="ITI-Ej-Ou7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="PqI-CS-1tJ"/>
+                            <constraint firstItem="pl8-JB-2fL" firstAttribute="leading" secondItem="ti1-o3-5Yg" secondAttribute="trailing" constant="20" id="Y8a-nu-C72"/>
+                            <constraint firstItem="ti1-o3-5Yg" firstAttribute="centerY" secondItem="Fab-p6-oyx" secondAttribute="centerY" id="aGB-dB-nh1"/>
+                            <constraint firstItem="O3p-Og-zRJ" firstAttribute="leading" secondItem="6w9-ma-Rzw" secondAttribute="trailing" constant="20" id="q3V-Vc-04g"/>
+                            <constraint firstItem="6w9-ma-Rzw" firstAttribute="top" secondItem="Fab-p6-oyx" secondAttribute="bottom" constant="20" id="rK2-Z4-hW4"/>
+                            <constraint firstItem="6w9-ma-Rzw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="swf-Yk-NLc"/>
+                            <constraint firstItem="pl8-JB-2fL" firstAttribute="centerY" secondItem="Fab-p6-oyx" secondAttribute="centerY" id="vuN-is-TNp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6w9-ma-Rzw" secondAttribute="bottom" constant="20" id="xh4-qp-kvv"/>
+                            <constraint firstItem="Fab-p6-oyx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="zk0-nO-s17"/>
+                            <constraint firstItem="cMl-JT-LpE" firstAttribute="centerY" secondItem="ITI-Ej-Ou7" secondAttribute="centerY" id="zrx-xd-alg"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="speedLabel" destination="ti1-o3-5Yg" id="Oxf-L6-b0t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-130" y="47"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

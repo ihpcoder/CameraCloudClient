@@ -1,6 +1,6 @@
 {
   "name": "CameraCloudClient",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "A Camera CloudClient SDK.",
   "description": "A Camera CloudClient SDK.A Camera CloudClient SDK.A Camera CloudClient SDK.",
   "homepage": "https://github.com/ihpcoder/CameraCloudClient",
@@ -16,11 +16,11 @@
   },
   "source": {
     "git": "https://github.com/ihpcoder/CameraCloudClient.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "source_files": [
     "CameraCloudClient/Classes",
-    "CameraCloudClient/Classes/**/*.{h,m}"
+    "CameraCloudClient/Classes/**/*.{h,m,mm}"
   ],
   "exclude_files": "CameraCloudClient/Classes/Exclude",
   "vendored_libraries": "CameraCloudClient/Classes/**/*.a",

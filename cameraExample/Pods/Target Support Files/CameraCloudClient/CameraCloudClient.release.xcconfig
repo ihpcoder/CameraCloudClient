@@ -1,7 +1,6 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/CameraCloudClient
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../CameraCloudClient/Classes/Lib"
-OTHER_LDFLAGS = $(inherited) -l"CloudClientSDK4iOS" -l"c++" -l"iconv" -l"resolv" -l"xml2" -l"z" -framework "AVFoundation" -framework "CoreMedia" -framework "Foundation" -framework "NetworkExtension" -framework "Security" -framework "UIKit" -framework "UserNotifications" -framework "VideoToolbox"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/CameraCloudClient" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CameraCloudClient"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

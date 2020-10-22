@@ -1,5 +1,5 @@
 PODS:
-  - CameraCloudClient (0.2.0)
+  - CameraCloudClient (0.3.0)
   - MJExtension (3.2.3)
 
 DEPENDENCIES:
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CameraCloudClient: e41167f04d008304d4f68804a39ec64c2aa82e26
+  CameraCloudClient: 5f4dfe0e168fa51e526a09e1e408b4444b0ba321
   MJExtension: a6fd35a527dafd7f3f1259017ee57551d58b3bb8
 
-PODFILE CHECKSUM: 4811a7b20829c6733aa2dbf8523808a8e83ab6f0
+PODFILE CHECKSUM: 105ed26086dd70f73dbe8c69825d26c3a52e5008
 
 COCOAPODS: 1.9.3
