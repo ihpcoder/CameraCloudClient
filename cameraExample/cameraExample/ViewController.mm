@@ -160,6 +160,8 @@ UIKIT_EXTERN NSString * const testDevicePwd = @"";
             
             self.deviceHandle = handle;
         }
+    }else{
+        NSLog(@"false");
     }
 }
 #pragma mark -----------------
